@@ -80,6 +80,42 @@ nav a:hover,
   color: var(--accent-dark);
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(20, 28, 28, 0.08);
+}
+
+.language-switcher a,
+.language-switcher span {
+  display: inline-flex;
+  min-width: 38px;
+  min-height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.language-switcher span {
+  background: var(--surface-strong);
+  color: #ffffff;
+}
+
+.language-switcher a {
+  color: var(--muted);
+}
+
+.language-switcher a:hover {
+  color: var(--accent-dark);
+}
+
 main {
   overflow: hidden;
 }
@@ -336,6 +372,10 @@ h1 {
     flex-direction: column;
   }
 
+  .site-header {
+    gap: 14px;
+  }
+
   .hero,
   .intro,
   .app-card,
@@ -360,4 +400,3 @@ h1 {
     width: min(180px, 60vw);
   }
 }
-

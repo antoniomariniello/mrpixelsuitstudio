@@ -20,7 +20,10 @@ Impostazioni consigliate:
 ## URL utili
 
 - Homepage: `/`
+- English homepage: `/en/`
 - Mr Sudoku: `/apps/mr-sudoku/`
+- Mr Sudoku English: `/en/apps/mr-sudoku/`
 - Privacy Policy Mr Sudoku: `/apps/mr-sudoku/privacy.html`
+- Privacy Policy Mr Sudoku English: `/en/apps/mr-sudoku/privacy.html`
 - Termini di Servizio Mr Sudoku: `/apps/mr-sudoku/terms.html`
-
+- Terms of Service Mr Sudoku English: `/en/apps/mr-sudoku/terms.html`
